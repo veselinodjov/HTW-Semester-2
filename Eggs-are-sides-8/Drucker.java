@@ -13,6 +13,6 @@ package interfaces;
 
 public interface Drucker 
 {
-	String drucksimulation ="%s%d meldet sich%nDas Drucken wird simuliert%n";
+	String drucksimulation ="%s%d meldet sich%nDas Drucken wird simuliert%n%s%n";
 	public void drucken (String druckRef);
 }

@@ -26,8 +26,7 @@ public class Faxgeraet implements Fax
 	@Override
 	public void senden(String sendeRef) 
 	{
-		System.out.printf(faxsimulation,faxgeraet,counter);
-		System.out.println(sendeRef);
+		System.out.printf(faxsimulation,faxgeraet,counter,sendeRef);
 	}
 
 }

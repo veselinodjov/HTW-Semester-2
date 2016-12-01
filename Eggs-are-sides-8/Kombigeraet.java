@@ -1,7 +1,7 @@
 /**
  * Kombigeraet is a class, which has the following parameters:
- * kombi - a predefined string("Kombigerï¿½t"),
- * kombikombi - a predefined string("Kombigerï¿½t Kombigerï¿½t"),
+ * kombi - a predefined string("Kombigerät"),
+ * kombikombi - a predefined string("Kombigerät Kombigerät"),
  * and a static counter i, referring to the number of created objects
  * 
  * Implements interfaces Drucker and Fax, overrides and uses their methods
@@ -23,20 +23,18 @@ public class Kombigeraet implements Drucker, Fax
 		i++;
 		counter = i;
 	}
-	String kombi = "Kombigerï¿½t";
-	String kombikombi = "Kombigerï¿½t Kombigerï¿½t";
+	String kombi = "Kombigerät";
+	String kombikombi = "Kombigerät Kombigerät";
 	@Override
 	public void senden(String sendeRef) 
 	{
-		System.out.printf(faxsimulation,kombi,counter);
-		System.out.println(sendeRef);		
+		System.out.printf(faxsimulation,kombi,counter,sendeRef);		
 	}
 
 	@Override
 	public void drucken(String druckRef) 
 	{
-		System.out.printf(drucksimulation,kombikombi,counter);
-		System.out.println(druckRef);
+		System.out.printf(drucksimulation,kombikombi,counter,druckRef);
 	}
 
 }

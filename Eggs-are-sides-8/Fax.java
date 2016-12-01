@@ -13,6 +13,6 @@ package interfaces;
 
 public interface Fax 
 {
-	String faxsimulation ="Absender ist: %s%d%nDas Drucken wird simuliert%n";
+	String faxsimulation ="Absender ist: %s%d%nDas Drucken wird simuliert%n%s%n";
 	public void senden (String sendeRef);
 }
