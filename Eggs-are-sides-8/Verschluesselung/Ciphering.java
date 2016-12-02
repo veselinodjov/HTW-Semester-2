@@ -10,7 +10,7 @@
  * Implements interface Chiffrierung, 
  * and overrides its methods.
  * 
- * @class Caeser.java
+ * @class Ciphering.java
  * @author Veselin Odzhov s0556006
  * @date 02.12.2016
  */
