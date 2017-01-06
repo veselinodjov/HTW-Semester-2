@@ -1,4 +1,4 @@
-
+//just testing
 public class GeradeZahl 
 {
 	public static boolean GeradeZahl(long a)
