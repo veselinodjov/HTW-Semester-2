@@ -1,6 +1,6 @@
 /**
  * @author Veselin Odzhov, s0556006
- * @date 05.01.2017
+ * @date 09.01.2017
  */
 
 package bintree;
